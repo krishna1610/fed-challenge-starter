@@ -5,13 +5,15 @@ class Lesson extends React.Component {
     return (
       <>
         <img
-          className="card-image-top"
+          className="card-img-top"
           src={process.env.PUBLIC_URL + "/Images/" + this.props.lesson.coverImg}
           alt={this.props.lesson.title}
         />
         <div className="card-body">
           <div className="d-flex justify-content-between align-items-top">
-            <p className="card-text">{this.props.lesson.title}</p>
+            <p className="card-text lesson-card-title">
+              {this.props.lesson.title}
+            </p>
             <small className="text-muted">
               <img
                 src={
@@ -25,7 +27,7 @@ class Lesson extends React.Component {
           </div>
           {this.props.lesson.stats && (
             <div className="d-flex">
-              <small className="text-muted">
+              <small className="lesson-card-stats">
                 <i className="bi bi-clock"></i>
                 {this.props.lesson.stats.time} &nbsp;
                 <i className="bi bi-cone"></i>

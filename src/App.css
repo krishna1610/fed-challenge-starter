@@ -9,3 +9,24 @@
 .lesson-card-button {
   text-decoration: none;
 }
+
+.lesson-card-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  color: #2e3134;
+}
+
+.lesson-card-stats {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #2e3134;
+}
