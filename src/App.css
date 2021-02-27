@@ -1,0 +1,11 @@
+.lesson-card-selected {
+  box-shadow: 0px 7px 12px rgba(46, 49, 52, 0.3);
+}
+
+.lesson-card {
+  box-shadow: 0px 1px 2px rgba(46, 49, 52, 0.4);
+}
+
+.lesson-card-button {
+  text-decoration: none;
+}
